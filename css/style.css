@@ -22,7 +22,7 @@ nav{
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.50%;
   background-color: black;
   position: sticky;
   top: 0;
@@ -33,52 +33,12 @@ a, a:hover, a:focus, a:active {
   color: inherit;
 }
 nav h1{
-  font-size: 20px;
+  font-size: 150%;
   color: white;
   text-align: center;
   margin-left: 47%;
 }
-nav .onglets{
-  display: flex;
-  flex-wrap:wrap;
-  color: white
-}
-nav .onglets p{
-  font-size: 17px;
-  margin-right: 10px;
-  cursor:pointer;
-}
-nav .onglets input{
-  margin: 8px 20px;
-  padding: 15px;
-  border-radius: 30px;
-  border:none;
-  background-color: #f2f2f2;
-  outline:none;
-}
 /* Fin de la barre de navigation */
-
-/* Header 
-header{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-}
-header h1{
-  font-size: 50px;
-  max-width: 500px;
-  text-align:center;
-}
-header button{
-  padding: 15px 20px;
-  font-size: 20px;
-  border:none;
-  border-radius: 5px;
-  outline:none;
-  cursor:pointer;
-}
- Fin du header */
 
  body {
   margin: 0;
@@ -87,7 +47,7 @@ header button{
 .hero {
   position: relative;
   width: 99vw;
-  height: 89vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,26 +152,6 @@ header button{
   background: linear-gradient(90deg,#000000,#665f5f);
   /*animation:anim 1s infinite alternate;*/
 }
-
-/*.social-buttons a i{
-  transition: 0.3s ease-in;
-}
-
-.social-buttons a:hover i{
-  background: linear-gradient(45deg,#104449,#101129);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(2.2);
-}
-.social-buttons a:hover img{
-  mask-image: url(images/download-icon-tiktok-1324440243881667301_16.ico);
-  background: url(images/download-icon-tiktok-1324440243881667301_16.ico);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(2.2);
-}*/
-
-/* Fin de toutes les cartes */
 /* Fin de la section principale */
 
 /* Pied de page */
@@ -223,7 +163,7 @@ header button{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 55px 50px;
+	padding: 5.5% 5%;
 }
 
 .footer-distributed .footer-left,
@@ -243,15 +183,16 @@ header button{
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
+	font: normal 270% 'Open Sans', cursive;
+	margin: -1%;
+  margin-right: 2%;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 20px 0 12px;
+	margin: 2% 0 1.2%;
 	padding: 0;
 }
 
@@ -265,7 +206,7 @@ header button{
 
 .footer-distributed .footer-company-name{
 	color:  rgb(66, 62, 62);
-	font-size: 14px;
+	font-size: 90%;
 	font-weight: normal;
 	margin: 0;
 }
@@ -279,25 +220,25 @@ header button{
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
-	font-size: 25px;
-	width: 42px;
-	height: 41px;
+	font-size: 150%;
+	width: 35px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
+	line-height: 170%;
+	margin: 3% 2%;
 	vertical-align: middle;
 }
 
 .footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 40px;
+	font-size: 110%;
+	line-height: 240%;
 }
 
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #88b3f3;
   font-weight:400;
+  font-size: 100%;
 	vertical-align: middle;
 	margin:0;
 }
@@ -321,11 +262,11 @@ header button{
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight:300;
-  font-size: 20px;
+  font-size: 110%;
   left: 0;
   color: #fff;
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 0%;
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -338,15 +279,14 @@ header button{
 	width: 20%;
 }
 .logo1 {
-  width: 200px;
-  height: 145px;
-  margin-top: -35px;
+  width: 67%;
+  margin-top: -12.5%;
   margin-bottom: auto;
 }
 
 /* Fin du pied de page */
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 64%){
   nav .onglets .link, nav h1{
     display:none;
   }
